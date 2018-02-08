@@ -26,6 +26,7 @@ public class stepDefinition {
 		FirefoxProfile ffprofile = new FirefoxProfile();
 		driver = new FirefoxDriver(ffbinary,ffprofile);
 		driver.get("https://www.naukri.com");
+		System.out.println("Checking git");
 		objLogin = PageFactory.initElements(driver,Login.class);
 		
 	}
